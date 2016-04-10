@@ -1,0 +1,125 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; /* Современные браузеры */
+}
+
+
+
+.navbar-default .navbar-brand { 
+    color: #000;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+}
+#Last { /* серия костылей  потому что я хз как прикрепить справа красиво*/
+	width:100px;
+	margin-left:100%;
+        left:-100px;
+}
+#Medium {
+	width:80px;
+	margin-left:100%;
+        left:-180px;
+}
+#First {
+	width:100px;
+	margin-left:100%;
+        left:-280px;
+}
+.navbar-default .navbar-nav > li > a {
+    position:fixed; 
+    color: #000;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    margin-left: 
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #000;
+    border-bottom-color: #333;
+}
+
+.input-group {
+    min-height: 20px; /* Минимальная высота */
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+   }
+
+input[type="text"] {
+    height: 35px;
+    outline: none;
+    border-radius: 10px;
+     -webkit-appearance: none;
+}
+
+#SearchButton {
+     width: 70px;
+    height: 35px;
+    border: none;
+    margin-right: 30px;
+    background-color: deepskyblue;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#CriterionButton {
+    margin: auto;
+    position: absolute;
+    margin-left: 0px;
+    height: 35px;
+    outline: none;
+}
+
+#SearchButton, 
+#SearchButton:active, 
+#SearchButton:focus {
+    outline: none;
+}
+
+header {
+    font-family: 'Trebuchet MS';
+}
+
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.jumbotron {
+    font-family: 'Trebuchet MS';
+  display: flex;
+  align-items: center;
+  background-image: url('http://s013.radikal.ru/i325/1604/4d/92b8cd061be0.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 100vh;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px;
+  color: aquamarine;
+}
+
+
