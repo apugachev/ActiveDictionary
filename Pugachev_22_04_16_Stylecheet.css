@@ -1,0 +1,149 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; /* Современные браузеры */
+}
+
+.navbar-default .navbar-brand { 
+    color: #000;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #000;
+    border-bottom-color: #333;
+}
+
+.input-group {
+    min-height: 20px; /* Минимальная высота */
+    margin: auto;
+    margin-bottom: 10%;
+   }
+
+input[type="text"] {
+    height: 35px;
+    outline: none;
+    border-radius: 10px;
+     -webkit-appearance: none;
+}
+
+#GlobalSearchButton {
+     width: 70px;
+    height: 35px;
+    border: none;
+    
+    background-color: deepskyblue;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#SearchButton, 
+#SearchButton:active, 
+#SearchButton:focus {
+    outline: none;
+}
+
+
+.dropdownmenu {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin: auto;
+    height: 35px;
+    outline: none;
+}
+
+#Selector {
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+}
+
+.modal-title,
+.modal-body {
+    color: black;
+}
+
+.box {
+    font-size: 15px;
+    height: 500px;
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+}
+
+#conjunction,
+#preposition,
+#wh-word {
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+#First {
+    margin-left: 15px;
+}
+
+#RuleSearchButton {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+
+header {
+    font-family: 'Trebuchet MS';
+}
+
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.jumbotron {
+    font-family: 'Trebuchet MS';
+  display: flex;
+  align-items: center;
+  background-image: url('http://s013.radikal.ru/i325/1604/4d/92b8cd061be0.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 100vh;
+  
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px;
+  color: aquamarine;
+}
+
+
