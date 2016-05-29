@@ -1,0 +1,85 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; /* Современные браузеры */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar-default .navbar-brand { 
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: rgb(200,200,200);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-size: 15px;
+}
+
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+
+
+
+.input-group {
+    min-height: 20px; /* Минимальная высота */
+    margin: auto;
+   }
+
+input[type="search"] {
+    height: 35px;
+    outline: none;
+     -webkit-appearance: none;
+    border-radius: 0px;
+}
+
+#GlobalSearchButton {
+    width: 70px;
+    height: 35px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 0px;
+}
+.articlecontent {
+    background-color: white;
+    box-shadow: 0.5em 0.5em 2px rgba(122,122,122,0.5);
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 1000px;
+}
+
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://s013.radikal.ru/i325/1604/4d/92b8cd061be0.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.jumbotron h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: ;
+}
+
+
